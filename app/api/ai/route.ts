@@ -32,7 +32,7 @@ export async function POST(req: Request) {
                 "X-Title": "protoolsFaska",
             },
             body: JSON.stringify({
-                "model": "openai/gpt-3.5-turbo",
+                "model": "google/gemini-2.0-flash-exp:free", // Use free model to avoid credit issues
                 "messages": messages,
             })
         });
