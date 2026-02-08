@@ -29,6 +29,15 @@ export default function SeoAnalyzerPage() {
       });
 
       const data = await response.json();
+
+      if (data.error) {
+        throw new Error(data.error);
+      }
+
+      if (!data.choices || !data.choices[0] || !data.choices[0].message) {
+        throw new Error('Invalid response from AI provider');
+      }
+
       let parsedResult = data.choices[0].message.content;
       try {
         parsedResult = JSON.parse(parsedResult);

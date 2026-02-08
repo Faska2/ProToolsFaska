@@ -57,6 +57,15 @@ export default function FaskaGptPage() {
             });
 
             const data = await response.json();
+
+            if (data.error) {
+                throw new Error(data.error);
+            }
+
+            if (!data.choices || !data.choices[0] || !data.choices[0].message) {
+                throw new Error('Invalid response format from AI provider');
+            }
+
             const assistantMsg: Message = {
                 role: 'assistant',
                 content: data.choices[0].message.content,
@@ -64,7 +73,13 @@ export default function FaskaGptPage() {
             };
             setMessages(prev => [...prev, assistantMsg]);
         } catch (error) {
-            console.error(error);
+            console.error("Chat Error:", error);
+            const errorMsg: Message = {
+                role: 'assistant',
+                content: `⚠️ Error: ${error instanceof Error ? error.message : 'Something went wrong. Please try again.'}`,
+                timestamp: new Date()
+            };
+            setMessages(prev => [...prev, errorMsg]);
         } finally {
             setLoading(false);
         }

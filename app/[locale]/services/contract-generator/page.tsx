@@ -38,9 +38,19 @@ export default function ContractGeneratorPage() {
             });
 
             const data = await response.json();
+
+            if (data.error) {
+                throw new Error(data.error);
+            }
+
+            if (!data.choices || !data.choices[0] || !data.choices[0].message) {
+                throw new Error('Invalid response from AI provider');
+            }
+
             setResult(data.choices[0].message.content);
         } catch (error) {
             console.error(error);
+            setResult(`⚠️ Error: ${error instanceof Error ? error.message : 'Something went wrong. Please check your API configuration.'}`);
         } finally {
             setLoading(false);
         }
