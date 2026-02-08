@@ -1,0 +1,451 @@
+{
+  "Metadata": {
+    "title": "ProTools - Professional Utilities Platform",
+    "description": "Free professional tools for career, business, and productivity. CV Generator, Invoice Maker, SEO Tools, and more."
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for. It might have been moved or deleted.",
+    "backHome": "Back to Home"
+  },
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "tools": "Tools",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "faskaGpt": "Faska-GPT"
+  },
+  "Home": {
+    "heroTitle": "Professional Tools for Everyone",
+    "heroTitlePrefix": "Professional Tools for Everyone",
+    "heroSubtitle": "Boost your productivity with our suite of free, professional tools. No sign-up required.",
+    "getStarted": "Get Started",
+    "popularServices": "Popular Services",
+    "askFaskaGpt": "Ask Faska-GPT"
+  },
+  "Services": {
+    "cvGenerator": "ATS CV Generator",
+    "cvGeneratorDesc": "Create a professional, ATS-friendly resume in minutes.",
+    "coverLetter": "Cover Letter Generator",
+    "coverLetterDesc": "Write a compelling cover letter for your job application.",
+    "invoiceGenerator": "Invoice Generator",
+    "invoiceGeneratorDesc": "Create and download professional invoices.",
+    "seoAnalyzer": "SEO Analyzer",
+    "seoAnalyzerDesc": "Analyze your website for SEO performance.",
+    "netSalary": "Net Salary Calculator",
+    "netSalaryDesc": "Calculate your net salary after taxes.",
+    "grammarChecker": "Grammar Checker",
+    "grammarCheckerDesc": "Correct grammar and spelling errors instantly.",
+    "audioReport": "Audio to Report",
+    "audioReportDesc": "Convert audio recordings into structured reports.",
+    "translator": "AI Translator",
+    "translatorDesc": "Translate text seamlessly between languages.",
+    "faskaGpt": "Faska-GPT",
+    "faskaGptDesc": "Advanced AI assistant for all your professional needs.",
+    "pdfTools": "PDF Tools",
+    "pdfToolsDesc": "Merge, compress, and convert PDF files.",
+    "pdfMerge": "Merge PDF",
+    "pdfMergeDesc": "Combine multiple PDF files into one.",
+    "imageToPdf": "Image to PDF",
+    "imageToPdfDesc": "Convert images to PDF documents.",
+    "preview": "Preview",
+    "downloadPDF": "Download PDF",
+    "cvAnalyzer": "AI CV Analyzer",
+    "cvAnalyzerDesc": "Get detailed feedback and scoring for your resume with AI.",
+    "quotationGenerator": "Quotation Generator",
+    "quotationGeneratorDesc": "Create professional price quotes and estimates instantly.",
+    "metaTagsGenerator": "Meta Tags Generator",
+    "metaTagsGeneratorDesc": "Generate SEO-optimized meta tags for your website.",
+    "pdfCompress": "Compress PDF",
+    "pdfCompressDesc": "Reduce PDF file size while maintaining quality.",
+    "pdfWordToPdf": "Word to PDF",
+    "pdfWordToPdfDesc": "Convert Microsoft Word documents to PDF format.",
+    "docCleaner": "Document Cleaner",
+    "docCleanerDesc": "Remove unwanted formatting and styling from text documents.",
+    "pdfSummarizer": "PDF Summarizer",
+    "pdfSummarizerDesc": "Extract key insights and summaries from long PDF documents.",
+    "textRewriter": "AI Text Rewriter",
+    "textRewriterDesc": "Rewrite and improve your text clarity using AI.",
+    "uploadFile": "Upload File",
+    "SeoContent": {
+      "cvGenerator": {
+        "title": "Why use our CV Generator?",
+        "text": "Our AI-powered CV generator helps you create professional, ATS-friendly resumes in minutes. Increase your chances of getting hired with a polished layout.",
+        "howTo": "How to Use",
+        "tips": "Pro Tips"
+      }
+    }
+  },
+  "CV": {
+    "personalInfo": "Personal Information",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "summary": "Professional Summary",
+    "experience": "Experience",
+    "addExperience": "Add Experience",
+    "education": "Education",
+    "addEducation": "Add Education",
+    "skills": "Skills",
+    "addSkill": "Add Skill",
+    "jobTitle": "Job Title",
+    "company": "Company",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "current": "I currently work here",
+    "description": "Description",
+    "degree": "Degree",
+    "school": "School",
+    "skillName": "Skill Name",
+    "skillLevel": "Level",
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "expert": "Expert"
+    }
+  },
+  "Invoice": {
+    "title": "INVOICE",
+    "from": "From",
+    "to": "To",
+    "invoiceNumber": "Invoice Number",
+    "date": "Date",
+    "dueDate": "Due Date",
+    "items": "Items",
+    "addItem": "Add Item",
+    "description": "Description",
+    "quantity": "Quantity",
+    "price": "Price",
+    "amount": "Amount",
+    "subtotal": "Subtotal",
+    "tax": "Tax (%)",
+    "total": "Total",
+    "notes": "Notes",
+    "terms": "Terms & Conditions"
+  },
+  "Salary": {
+    "grossSalary": "Gross Salary (Annual)",
+    "country": "Country",
+    "calculate": "Calculate",
+    "breakdown": "Salary Breakdown",
+    "tax": "Income Tax",
+    "socialSecurity": "Social Security",
+    "netSalary": "Net Salary",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "calcNet": "Calculate Net Salary",
+    "takeHome": "Take Home Pay",
+    "perYearNet": "Net / Year",
+    "perMonthNet": "Net / Month",
+    "totalDeductions": "Total Deductions",
+    "optimizationTip": "Optimization Tip",
+    "optimizationTipDesc": "Consider tax-exempt benefits to increase your take-home pay by up to 12% in {country}.",
+    "morocco": "Morocco (Simulated)",
+    "france": "France (Simulated)",
+    "usa": "United States (Simulated)"
+  },
+  "Pdf": {
+    "dropFiles": "Drop files here or click to upload",
+    "merge": "Merge PDFs",
+    "convert": "Convert to PDF",
+    "clear": "Clear All",
+    "processing": "Processing...",
+    "download": "Download File",
+    "pdfOnly": "(PDF only)",
+    "filesSelected": "Files Selected",
+    "privateProcessing": "Private local processing",
+    "reducedBy": "Reduced size by",
+    "optimizationResult": "{percent}% reduction ({size} MB)",
+    "wordDoc": "Microsoft Word Document",
+    "compressFiles": "Compress Files",
+    "imageFormats": "(JPG, PNG, WebP)",
+    "imagesSelected": "Images Selected",
+    "enhancement": "Enhancement Level",
+    "cleaning": "Clean Document",
+    "original": "Original",
+    "cleaned": "Cleaned Version"
+  },
+  "Common": {
+    "generate": "Generate",
+    "download": "Download",
+    "preview": "Preview",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!",
+    "remove": "Remove",
+    "allTools": "All Professional Tools",
+    "allToolsDesc": "Explore our complete suite of AI-powered utilities designed to supercharge your workflow.",
+    "tryNow": "Try Now",
+    "analyzing": "Analyzing...",
+    "checking": "Checking...",
+    "generating": "Generating...",
+    "copied": "Copied to clipboard!",
+    "mb": "MB"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: February 8, 2026",
+    "intro": "At ProTools, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your information when you use our website and services.",
+    "section1": {
+      "title": "1. Information We Collect",
+      "content": "We collect information you provide directly to us when using our tools (e.g., CV data, invoice details). However, most of our tools (like PDF tools, CV Generator) process data locally on your device. We do not store your personal files on our servers."
+    },
+    "section2": {
+      "title": "2. How We Use Information",
+      "content": "We use the information to provide and improve our services. For example, to generate your CV or invoice. We may also use non-personal data for analytics to understand how our site is used."
+    },
+    "section3": {
+      "title": "3. Cookies and Tracking Technologies",
+      "content": "We use cookies to enhance your experience, such as remembering your language preference. We also use third-party tracking tools like Google Analytics to analyze website traffic."
+    },
+    "section4": {
+      "title": "4. Third-Party Services",
+      "content": "Our service may contain links to third-party websites or services (e.g., Google AdSense) that are not owned or controlled by ProTools. We are not responsible for the privacy practices of these third parties."
+    },
+    "section5": {
+      "title": "5. Data Security",
+      "content": "We implement appropriate security measures to protect your data. However, please be aware that no method of transmission over the internet is 100% secure."
+    },
+    "section6": {
+      "title": "6. Contact Us",
+      "content": "If you have any questions about this Privacy Policy, please contact us at faska2002elouaaziki@gmail.com."
+    }
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: February 8, 2026",
+    "intro": "Please read these Terms of Service carefully before using ProTools.",
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "content": "By accessing or using our website, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the service."
+    },
+    "section2": {
+      "title": "2. Use of Services",
+      "content": "Our tools are provided for personal and professional use. You agree not to misuse our services or help anyone else do so."
+    },
+    "section3": {
+      "title": "3. Intellectual Property",
+      "content": "The content, features, and functionality of ProTools are and will remain the exclusive property of ProTools and its licensors."
+    },
+    "section4": {
+      "title": "4. Disclaimer",
+      "content": "Our services are provided 'as is'. ProTools makes no warranties, expressed or implied, regarding the accuracy or reliability of the tools."
+    },
+    "section5": {
+      "title": "5. Limitation of Liability",
+      "content": "In no event shall ProTools be liable for any indirect, incidental, special, consequential or punitive damages arising out of your use of the service."
+    },
+    "section6": {
+      "title": "6. Changes to Terms",
+      "content": "We reserve the right to modify or replace these Terms at any time. Your continued use of the service after any changes constitutes acceptance of the new Terms."
+    }
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "subtitle": "Have questions? We'd love to hear from you.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "addressValue": "Agadir, Morocco"
+    },
+    "portfolio": "Portfolio",
+    "globalAvailability": "Global Remote Availability",
+    "success": {
+      "title": "Message Sent!",
+      "message": "Thank you for reaching out. We'll get back to you faster than light speed. 🚀",
+      "button": "Send Another"
+    },
+    "processing": "Processing...",
+    "placeholders": {
+      "name": "John Doe",
+      "email": "hello@example.com",
+      "subject": "Project Inquiry...",
+      "message": "Tell us about your next big idea..."
+    }
+  },
+  "Tools": {
+    "betaNote": {
+      "title": "Development in Progress",
+      "message": "Not all tools are fully polished yet as we are still in active development. With your support and feedback, we will reach perfection together.",
+      "cta": "Support us"
+    },
+    "seo": {
+      "urlPlaceholder": "https://example.com",
+      "analyze": "Analyze",
+      "score": "SEO Score",
+      "metrics": "Metrics",
+      "issues": "Critical Issues",
+      "recommendations": "Strategy & Recommendations",
+      "pageTitle": "Page Title",
+      "metaDescription": "Meta Description",
+      "h1Header": "H1 Header",
+      "imagesAlt": "Images Alt Text",
+      "noTitle": "No title found",
+      "noDescription": "No description found",
+      "foundH1": "Found {count} H1 tag(s)",
+      "imagesSummary": "{total} images found, {missing} missing alt tags",
+      "healthy": "Healthy Performance",
+      "techIntel": "Technical SEO Intelligence",
+      "enterUrl": "Enter a website URL above to generate a comprehensive audit report including speed metrics, meta optimizations, and content strategy.",
+      "pageSpeed": "Page Speed",
+      "mobileFriendly": "Mobile Friendly",
+      "metaTags": "Meta Tags",
+      "missingH1": "Missing H1 on home page",
+      "largeImages": "Large image sizes",
+      "improveLinking": "Improve internal linking",
+      "addAltTags": "Add alt tags to all images"
+    },
+    "grammar": {
+      "label": "Your Text",
+      "placeholder": "Type or paste your text here...",
+      "check": "Check Grammar",
+      "corrected": "Corrected Version",
+      "errors": "Detected Errors",
+      "emptyTitle": "Multilingual Correction",
+      "emptyDesc": "Our AI analyzes your text depth to detect grammar errors, stylistic inconsistencies, and more across 3 languages."
+    },
+    "contract": {
+      "type": "Contract Type",
+      "freelance": "Freelance Agreement",
+      "nda": "Non-Disclosure Agreement (NDA)",
+      "employment": "Employment Contract",
+      "sla": "Service Level Agreement (SLA)",
+      "partyA": "Party A (Provider/Employer)",
+      "partyB": "Party B (Client/Employee)",
+      "scope": "Scope of Work",
+      "compensation": "Compensation Terms",
+      "jurisdiction": "Governing Law / Jurisdiction",
+      "generate": "Generate Contract",
+      "readyToDraft": "Ready to Draft",
+      "draftDesc": "Fill in the details on the left to generate a professional legal contract template instantly.",
+      "disclaimer": "Disclaimer: This document is an AI-generated template and does not constitute legal advice.",
+      "placeholderPartyA": "Company / Provider Name",
+      "placeholderPartyB": "Client / Employee Name",
+      "placeholderScope": "Describe the services, project scope, or key terms of the agreement...",
+      "placeholderCompensation": "e.g., $5,000 Total, 50% upfront",
+      "placeholderJurisdiction": "e.g., Morocco, France, US"
+    },
+    "cvAnalyzer": {
+      "pasteCV": "Paste Resume / CV Text",
+      "placeholder": "Paste the full text of the resume here...",
+      "analyze": "Analyze CV",
+      "atsScore": "ATS Score",
+      "scoreDesc": "Based on industry standard algorithms",
+      "strengths": "Key Strengths",
+      "weaknesses": "Areas for Improvement",
+      "recommendations": "Smart Recommendations"
+    },
+    "coverLetter": {
+      "fullName": "Your Full Name",
+      "recipient": "Recipient Name",
+      "jobTitle": "Job Title",
+      "company": "Company Name",
+      "profile": "Professional Profile / Key Skills",
+      "placeholderProfile": "Highlight your best achievements and relevant experience...",
+      "placeholderRecipient": "Hiring Manager (Optional)",
+      "placeholderName": "John Doe",
+      "placeholderJob": "Software Engineer",
+      "placeholderCompany": "Google",
+      "generate": "Generate Cover Letter",
+      "generating": "Generating...",
+      "readyToWrite": "Ready to write?",
+      "writeDesc": "Fill out the form to generate your professional cover letter."
+    },
+    "docCleaner": {
+      "default": "DEFAULT",
+      "maxClean": "MAX PRO CLEAN",
+      "engineTitle": "Enhancement Engine",
+      "engineDesc": "Upload a photo of a document or a scanned PDF to automatically remove shadows, increase contrast, and improve readability."
+    },
+    "translator": {
+      "auto": "Auto Detect",
+      "label": "Your Text",
+      "placeholder": "Type or paste your text here...",
+      "translate": "Translate",
+      "globalComm": "Global Communication",
+      "contextualTrans": "Contextual Translation",
+      "poweredBy": "Powered by Faska-GPT",
+      "emptyTitle": "Bridge the Language Gap",
+      "emptyDesc": "Our neural network analyzes the context of your text to provide translations that sound natural and culturally accurate."
+    },
+    "faskaGpt": {
+      "welcome": "Welcome to Faska-GPT",
+      "description": "I am your specialized AI core within the ProTools Faska ecosystem. I can help you build documents, analyze code, translate languages, and automate your professional workflow.",
+      "placeholder": "Ask me anything...",
+      "systemStatus": "System Operational • v4.0",
+      "clearSession": "Clear Session",
+      "generateContract": "Generate Legal Contract",
+      "atsOptimization": "ATS Score Optimization",
+      "aiDisclaimer": "AI may produce inaccurate information.",
+      "user": "USER",
+      "assistant": "ASSISTANT"
+    },
+    "meta": {
+      "title": "Page Title",
+      "desc": "Description",
+      "keywords": "Keywords",
+      "robots": "Robots",
+      "preview": "Google Preview",
+      "generatedTags": "Generated Tags",
+      "titlePlaceholder": "Page Title (Max 60 characters)",
+      "descPlaceholder": "Description for search results (Max 160 characters)",
+      "keywordsPlaceholder": "seo, tools, free",
+      "titlePreview": "Page Title Will Appear Here",
+      "descPreview": "Provide a meta description to see how your page will look in Google search results."
+    },
+    "SeoContent": {
+      "cvGenerator": {
+        "title": "Why Use Our CV Generator?",
+        "text": "Our AI-powered CV generator helps you create professional, ATS-friendly resumes in minutes. Increase your chances of getting hired with a polished layout.",
+        "howTo": "How to Use",
+        "tips": "Pro Tips"
+      }
+    }
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "q1": "Are these tools really free?",
+    "a1": "Yes! All tools on ProTools are completely free to use for personal and professional purposes.",
+    "q2": "Is my data safe?",
+    "a2": "Absolutely. Most tools run locally in your browser, and we never store your personal files."
+  },
+  "About": {
+    "title": "About ProTools",
+    "subtitle": "Empowering professionals with next-generation AI tools.",
+    "intro": "ProTools Faska is a comprehensive platform designed to streamline your workflow. Whether you're a freelancer, student, or business owner, our free tools help you achieve more in less time.",
+    "feature1Title": "100% Free",
+    "feature1Desc": "Access all premium tools without any hidden costs or subscriptions.",
+    "feature2Title": "Privacy First",
+    "feature2Desc": "Your data is processed locally tailored for maximum security.",
+    "feature3Title": "AI Powered",
+    "feature3Desc": "Leverage the latest AI technology to automate complex tasks.",
+    "feature4Title": "Global Reach",
+    "feature4Desc": "Available in multiple languages to support users worldwide.",
+    "missionTitle": "Our Mission",
+    "missionText1": "To provide high-quality, professional tools that are accessible to everyone, regardless of their budget or location.",
+    "missionText2": "We believe that technology should be an enabler, not a barrier. That's why we're committed to building open, privacy-focused utilities that respect your data and your time."
+  },
+  "Footer": {
+    "platform": "Platform",
+    "getInTouch": "Get in Touch",
+    "whatsApp": "WhatsApp",
+    "supportEmail": "Support Email",
+    "rights": "All rights reserved",
+    "developedWith": "Developed with",
+    "by": "by",
+    "role": "Full Stack AI Developer"
+  }
+}
