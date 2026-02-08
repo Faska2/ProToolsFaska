@@ -1,16 +1,27 @@
 import { NextResponse } from 'next/server';
 
-const OPENROUTER_API_KEY = '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';
-
 export async function POST(req: Request) {
     try {
-        const { prompt, systemPrompt, history = [] } = await req.json();
+        const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+
+        if (!OPENROUTER_API_KEY) {
+            console.error("❌ API Error: OPENROUTER_API_KEY is missing in environment variables.");
+            return NextResponse.json(
+                { error: "Configuration Error: API Key is missing on server." }, 
+                { status: 500 }
+            );
+        }
+
+        const body = await req.json();
+        const { prompt, systemPrompt, history = [] } = body;
 
         const messages = [
             { "role": "system", "content": systemPrompt || "You are a professional assistant." },
             ...history,
             { "role": "user", "content": prompt }
         ];
+
+        console.log("🚀 Sending request to OpenRouter...");
 
         const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
@@ -26,10 +37,20 @@ export async function POST(req: Request) {
             })
         });
 
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error(`❌ OpenRouter API Error (${response.status}):`, errorText);
+            return NextResponse.json(
+                { error: `Provider Error: ${response.statusText}`, details: errorText }, 
+                { status: response.status }
+            );
+        }
+
         const data = await response.json();
         return NextResponse.json(data);
+
     } catch (error) {
-        console.error("AI API Error:", error);
-        return NextResponse.json({ error: "Failed to process AI request" }, { status: 500 });
+        console.error("💥 Unhandled AI API Error:", error);
+        return NextResponse.json({ error: "Internal Server Error", details: String(error) }, { status: 500 });
     }
 }

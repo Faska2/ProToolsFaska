@@ -21,6 +21,11 @@ export default function ContactPage() {
     if (!process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ||
       !process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ||
       !process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY) {
+      console.error('EmailJS Env Vars Missing:', {
+        serviceId: !!process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        templateId: !!process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        publicKey: !!process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      });
       setError('EmailJS configuration is missing.');
       setIsSubmitting(false);
       return;
